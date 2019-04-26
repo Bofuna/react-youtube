@@ -1,0 +1,35 @@
+.navbar {
+  width: 100vw;
+  border: 1px solid black;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding: 0 1rem;
+}
+
+.logo {
+  width: 5rem;
+}
+
+.navbar__main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.navbar__main--right {
+  display: flex;
+  align-items: center;
+  color: var(--darkergrey);
+}
+
+.navbar__main--right > i {
+  cursor: pointer;
+}
+
+.navbar__main--right > * + * {
+  margin-left: 1.8rem;
+}

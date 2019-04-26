@@ -1,0 +1,28 @@
+.searchbar {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--grey);
+  border-radius: 0.15em;
+  overflow: hidden;
+  margin: 0 2rem;
+  height: 2rem;
+  width: 80%;
+}
+
+.searchbar__input {
+  font-size: 1rem;
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  flex: 1;
+}
+
+.searchbar_button {
+  padding: 0 1.56rem;
+  background: var(--lightgrey);
+  color: var(--darkgrey);
+  border: none;
+  border-left: 1px solid var(--grey);
+  font-size: 0.9rem;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+:root {
+  box-sizing: border-box;
+  --grey: #cccccc;
+  --lightgrey: #f8f8f8;
+  --darkgrey: #828282;
+  --darkergrey: #606060;
+  --blue: #2164b6;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
