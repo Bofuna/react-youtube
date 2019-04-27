@@ -4,9 +4,9 @@
   border: 1px solid var(--grey);
   border-radius: 0.15em;
   overflow: hidden;
-  margin: 0 2rem;
   height: 2rem;
   width: 80%;
+  max-width: 40rem;
 }
 
 .searchbar__input {
@@ -15,6 +15,7 @@
   outline: none;
   border: none;
   flex: 1;
+  min-width: 0;
 }
 
 .searchbar_button {
@@ -25,4 +26,5 @@
   border-left: 1px solid var(--grey);
   font-size: 0.9rem;
   cursor: pointer;
+  outline: none;
 }

@@ -8,6 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
+        <i className="fas fa-bars navbar__burger__button" />
         <div className="navbar__logo">
           <img src={logo} className="logo" />
         </div>

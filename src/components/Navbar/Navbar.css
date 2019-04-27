@@ -8,8 +8,14 @@
   padding: 0 1rem;
 }
 
+.navbar__burger__button {
+  padding: 0.8rem;
+  cursor: pointer;
+}
+
 .logo {
   width: 5rem;
+  margin-left: 0.5rem;
 }
 
 .navbar__main {

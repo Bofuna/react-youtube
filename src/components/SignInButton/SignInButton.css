@@ -16,4 +16,5 @@
   font-weight: 600;
   margin-left: 0.5rem;
   text-transform: uppercase;
+  white-space: nowrap;
 }
