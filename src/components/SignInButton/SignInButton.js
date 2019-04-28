@@ -4,7 +4,7 @@ import "./SignInButton.css"
 function SignInButton() {
   return (
     <button className="signin__button">
-      <i class="fas fa-user-circle" />
+      <i className="fas fa-user-circle" />
       <span className="signin__button__text">Sign in</span>
     </button>
   )

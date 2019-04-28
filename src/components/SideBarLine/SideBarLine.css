@@ -1,0 +1,24 @@
+.sidebarline {
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarline:hover {
+  background: var(--grey);
+}
+
+.sidebarline__icon {
+  width: 2rem;
+  font-size: 1.2rem;
+  color: var(--darkergrey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarline__name {
+  font-size: 0.9rem;
+  margin-left: 1.5rem;
+}

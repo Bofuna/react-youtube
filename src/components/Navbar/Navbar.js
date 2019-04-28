@@ -17,6 +17,7 @@ class Navbar extends Component {
         </div>
         <div className="navbar__right">
           <div className="navbar__main--right">
+            <i className="fas fa-search navbar__search" />
             <i className="fas fa-video" />
             <i className="fas fa-th" />
             <i className="fas fa-comment" />

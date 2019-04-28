@@ -1,0 +1,7 @@
+.sidebar {
+  width: 15rem;
+  padding: 1rem 0;
+  height: calc(100vh - 3.5rem);
+  overflow: auto;
+  background: var(--lightgrey);
+}

@@ -1,12 +1,17 @@
 import React from "react"
 import Navbar from "./components/Navbar/Navbar"
+import SideBar from "./components/SideBar/SideBar"
+import "./App.css"
 
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Navbar />
-      </div>
+        <div className="main">
+          <SideBar />
+        </div>
+      </React.Fragment>
     )
   }
 }

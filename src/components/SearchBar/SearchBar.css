@@ -28,3 +28,9 @@
   cursor: pointer;
   outline: none;
 }
+
+@media (max-width: 700px) {
+  .searchbar {
+    display: none;
+  }
+}

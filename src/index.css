@@ -1,5 +1,6 @@
 :root {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
   --grey: #cccccc;
   --lightgrey: #f8f8f8;
   --darkgrey: #828282;

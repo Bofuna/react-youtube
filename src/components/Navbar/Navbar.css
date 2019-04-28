@@ -1,11 +1,13 @@
 .navbar {
   width: 100vw;
-  border: 1px solid black;
   height: 3.5rem;
   display: flex;
   align-items: center;
   position: fixed;
   padding: 0 1rem;
+  top: 0;
+  left: 0;
+  background: white;
 }
 
 .navbar__burger__button {
@@ -38,4 +40,18 @@
 
 .navbar__main--right > * + * {
   margin-left: 1.8rem;
+}
+
+.navbar__search {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .searchbar {
+    display: none;
+  }
+
+  .navbar__search {
+    display: block;
+  }
 }
