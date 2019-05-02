@@ -2,6 +2,7 @@ import React from "react"
 import "./SideBar.css"
 import SideBarLine from "../SideBarLine/SideBarLine"
 import SideBarTitle from "../SideBarTitle/SideBarTitle"
+import SideBarFooter from "../SideBarFooter/SideBarFooter"
 
 function SideBar() {
   return (
@@ -60,6 +61,8 @@ function SideBar() {
       <SideBarLine name="Send feedback">
         <i className="fas fa-comment-alt" />
       </SideBarLine>
+      <hr />
+      <SideBarFooter />
     </div>
   )
 }
