@@ -1,0 +1,12 @@
+.videogrid__container {
+  width: 90%;
+}
+
+.videogrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.videogrid > * {
+  margin: 0 0.3rem 2rem 0;
+}

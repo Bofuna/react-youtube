@@ -5,6 +5,7 @@
   position: relative;
   font-size: 0.9rem;
   line-height: 1.2rem;
+  cursor: pointer;
 }
 
 .videopreview__image {
@@ -33,6 +34,30 @@
   margin: 0.6rem 0;
   width: 100%;
   overflow: hidden;
+  position: relative;
+  line-height: 1rem;
+  /* line-height * lines max number */
+  max-height: 2rem;
+  text-align: justify;
+  margin-right: -1rem;
+  padding-right: 1rem;
+}
+
+.videopreview__title:before {
+  content: "...";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.videopreview__title:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.2rem;
+  background: white;
 }
 
 .videopreview__details,

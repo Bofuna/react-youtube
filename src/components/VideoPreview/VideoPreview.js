@@ -9,8 +9,8 @@ function VideoPreview() {
       <span className="videopreview__time">17:01</span>
       <div className="videopreview_description">
         <p className="videopreview__title">
-          Flinch w/ Blackpink Flinch w/ Blackpink Flinch w/ Blackpink Flinch w/
-          Blackpink
+          Flinch w/ Blackpink Flinch w/ Blackpink Flinch w/ B
+          
         </p>
         <span className="videopreview__channel">
           Today on the Korean Server
